@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.container {
+    margin-left: 200px;
+} 
+
+header h1 {
+    font-size: 70px;
+    color: #000000;
+    display: inline-block;
+}
+
+header h2 {
+    font-size: 40px;
+    color: #a9a9a9;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.contact-form {
+    margin-top: 60px;
+    width: 100%;
+    height: 340px;
+    max-width: 800px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+    padding: 5px 5px;
+    box-sizing: border-box;
+    text-align: center; 
+    justify-content: center;
+    display: flex;
+}
+
+.left-form {
+    flex-basis: 40%;
+    padding: 5px 5px;
+    text-align: left;
+}
+
+.right-form {
+    flex-basis: 60%;
+    padding: 5px 5px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.input-group {
+    flex-basis: 50%;  
+    margin-bottom: 20px;
+} 
+
+.input-group input {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.right-form input {
+    position: relative;
+    float: right;
+    background-color: #4682B4;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.input-textarea {
+    flex-basis: 40%;  
+    margin-bottom: 10px;
+} 
+
+.contact-form:after {
+    clear: both;
+}
+
+.social {
+    margin-top: 400px;
+    width: 100%;
+    height: 340px;
+    max-width: 800px;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+    padding: 5px 5px;
+    box-sizing: border-box;
+    text-align: center; 
+    justify-content: center;
+    //display: flex;
+}
+
+.social-type {
+    display: center;
+ }
+
+.social-type h5 {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    color: #4682B4;
+    font-size: 18px;
+}
+
+.social h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.line {
+    color: #f1f1f1;
+    width: 50%;
+    display: center;
+}
